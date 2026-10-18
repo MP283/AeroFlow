@@ -1,0 +1,17 @@
+{
+  "name": "aeroflow-api",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "sql": "node scripts/run-sql.js",
+    "seed:flights": "node scripts/seed-flights.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3"
+  }
+}

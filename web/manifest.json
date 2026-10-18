@@ -1,0 +1,9 @@
+{
+  "name": "AeroFlow",
+  "short_name": "AeroFlow",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1457d9",
+  "description": "A frontend-only flight booking experience."
+}
